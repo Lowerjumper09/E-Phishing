@@ -1,0 +1,109 @@
+import time
+import os
+import sys
+import json
+
+
+
+print("ATTENTION ! CE TOOLS A ETE CREER A BUT EDUCATIFS, JE NE SUIS EN AUCUN CAS RESPONSABLE DE CE QUE VOUS FAITES AVEC MES CREATION !")
+username = input("Entre ton pseudo : ")
+print("Très bien " + username + " ! Maintenant choisie une de ces 22 propositions !")
+print(" 1-Discord       2-Fortnite  3-Minecraft")
+print(" 4-Roblox        5-Voicemod  6-Snapchat ")
+print(" 7-Pinterest     8-Instagram 9-Brawl_Stars")
+print(" 10-YouTube      11-PS_App   12-TikTok")
+print(" 13-WhatsApp     14-Twitter  15-Twitch")
+print(" 16-Netflix      17-Spotify  18-Google")
+print(" 19-Microsoft    20-Mega     21-CapCut")
+print(" 22-Pokemon_TCGP ")
+choix = input("Insère le nombre de ton choix : ")
+if choix == "1":
+     print("Bien ! Maintenant")
+     choix2 = input("veux-tu un url personnalisé ? tape y pour oui et n pour non : ")
+     if choix2 == "y":
+         print(" voici un example : https://discord-gifts-nitro.com")
+         url = input("https://")
+     elif choix2 == "n":
+         print("boubou")
+elif choix == "2":
+    print("Bien ! Maintenant")
+    choix2 = input("veux-tu un url personnalisé ? tape y pour oui et n pour non : ")
+    if choix2 == "y":
+        print(" voici un example : https://fortnite-gifts-vbucks.com")
+        url = input("https://")
+    elif choix2 == "n":
+        print("boubou")
+elif choix == "3":
+    print("Bien ! Maintenant")
+    choix2 = input("veux-tu un url personnalisé ? tape y pour oui et n pour non : ")
+    if choix2 == "y":
+        print(" voici un example : https://minecraft.uk/minecoins2019.com")
+        url = input("https://")
+    elif choix2 == "n":
+        print("boubou")
+elif choix == "4":
+    print("Bien ! Maintenant")
+    choix2 = input("veux-tu un url personnalisé ? tape y pour oui et n pour non : ")
+    if choix2 == "y":
+        print(" voici un example : https://roblox-gifts-robux.com")
+        url = input("https://")
+    elif choix2 == "n":
+        print("boubou")
+elif choix == "5":
+    print("Bien ! Maintenant")
+    choix2 = input("veux-tu un url personnalisé ? tape y pour oui et n pour non : ")
+    if choix2 == "y":
+        print(" voici un example : https://voicemod-premium-gifts.com")
+        url = input("https://")
+    elif choix2 == "n":
+        print("boubou")
+elif choix == "6":
+    print("Bien ! Maintenant")
+    choix2 = input("veux-tu un url personnalisé ? tape y pour oui et n pour non : ")
+    if choix2 == "y":
+        print(" voici un example : https://discord-gifts-nitro")
+        url = input("https://")
+    elif choix2 == "n":
+        print("boubou")
+elif choix == "7":
+    print("Bien ! Maintenant")
+    choix2 = input("veux-tu un url personnalisé ? tape y pour oui et n pour non : ")
+    if choix2 == "y":
+        print(" voici un example : https://discord-gifts-nitro")
+        url = input("https://")
+    elif choix2 == "n":
+        print("boubou")
+elif choix == "8":
+    print("Bien ! Maintenant")
+    choix2 = input("veux-tu un url personnalisé ? tape y pour oui et n pour non : ")
+    if choix2 == "y":
+        print(" voici un example : https://discord-gifts-nitro")
+        url = input("https://")
+    elif choix2 == "n":
+        print("boubou")
+elif choix == "9":
+    print("Bien ! Maintenant")
+    choix2 = input("veux-tu un url personnalisé ? tape y pour oui et n pour non : ")
+    if choix2 == "y":
+        print(" voici un example : https://discord-gifts-nitro")
+        url = input("https://")
+    elif choix2 == "n":
+        print("boubou")
+elif choix == "10":
+    print("Bien ! Maintenant")
+    choix2 = input("veux-tu un url personnalisé ? tape y pour oui et n pour non : ")
+    if choix2 == "y":
+        print(" voici un example : https://discord-gifts-nitro")
+        url = input("https://")
+    elif choix2 == "n":
+        print("boubou")
+elif choix == "10":
+    print("Bien ! Maintenant")
+    choix2 = input("veux-tu un url personnalisé ? tape y pour oui et n pour non : ")
+    if choix2 == "y":
+        print(" voici un example : https://discord-gifts-nitro")
+        url = input("https://")
+    elif choix2 == "n":
+        print("boubou")
+else:
+      print("Choix invalide.")
